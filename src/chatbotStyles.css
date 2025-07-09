@@ -1,0 +1,43 @@
+/* Style the chatbot container */
+#bp-web-widget {
+    background-color: #FFD700 !important; /* Yellow */
+    border-radius: 12px !important;
+  }
+  
+  /* Customize chatbot header */
+  .bpw-header {
+    background-color: #FFA000 !important; /* Dark Yellow */
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+  }
+  
+  /* Customize user messages */
+  .bpw-user-message {
+    background-color: #FFD700 !important;
+    color: black !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+  }
+  
+  /* Customize bot messages */
+  .bpw-bot-message {
+    background-color: #FFA000 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+  }
+  
+  /* Customize input field */
+  .bpw-input-container {
+    background-color: #FFF8E1 !important;
+    border-radius: 8px !important;
+    border: 1px solid #FFA000 !important;
+  }
+  
+  /* Customize send button */
+  .bpw-send-button {
+    background-color: #FFD700 !important;
+    color: black !important;
+    border-radius: 8px !important;
+  }

@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .portFolioPage {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .portFolioTophead {
+    width: 100%;
+    height: 50vh;
+    background-color: #50555a;
+    text-align: center;
+    padding: 150px 0;
+}
+  
+  .portFolioTophead h1 {
+    width: 80%;
+    margin: auto;
+    color: #ffc109;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .portFolioTophead p{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .portFolioContent {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+  }
+
+  .portFolioContent h2 {
+    font-size: 30px;
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+    padding-left: 10px;
+  }
+
+  .portFolioContent p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .portFolioContent ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portFolioContent ul li {
+    font-size: 18px;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ffc109;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .portFolioContent ul li:hover {
+    background-color: #343a3f;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .portFolioTophead{
+      height: 50vh;
+      padding: 150px 0;
+    }
+
+    .portFolioTophead h1 {
+      font-size: 30px;
+    }
+  
+    .portFolioContent {
+      width: 90%;
+    }
+  
+    .portFolioTophead p,
+    .portFolioContent p {
+      width: 90%;
+    }
+  }
+  

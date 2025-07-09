@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .consultantWrapper {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .consultantHeader {
+    width: 100%;
+    height: 30vh;
+    background-color: #50555a;
+    text-align: center;
+    padding: 150px ;
+    color: white;
+  }
+  
+  .consultantTitle {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffc109;
+  }
+  
+  .consultantDescription {
+    padding-top: 15px;
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .consultantServicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 5%;
+  }
+  
+  .consultantServiceCard {
+    width: 30%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .consultantServiceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .consultantServiceImage {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .consultantServiceTitle {
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .consultantServiceDescription {
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+  }
+  
+  .whyChooseConsultant {
+    padding: 60px;
+    background-color: #ffc109;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .consultantWhyTitle {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .consultantWhyList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .consultantWhyList li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .consultantWhyList strong {
+    color: #333;
+  }
+  
+  @media (max-width: 1024px) {
+    .consultantServicesContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .consultantServiceCard {
+      width: 80%;
+    }
+  
+    .consultantTitle {
+      font-size: 36px;
+    }
+  
+    .consultantDescription {
+      font-size: 16px;
+      width: 85%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .consultantHeader{
+      height: 35vh;
+      padding: 150px 0;
+    }
+
+    .consultantServiceCard {
+      width: 100%;
+    }
+  
+    .consultantTitle {
+      font-size: 30px;
+    }
+  
+    .consultantDescription {
+      font-size: 18px;
+    }
+
+    .whyChooseConsultant{
+      padding: 30px 20px;
+    }
+  }
+  

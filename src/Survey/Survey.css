@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .surveyPage {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .surveyTophead {
+    width: 100%;
+    background-color: #50555a;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .surveyTophead h1 {
+    color: #ffc109;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .surveyTophead p {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .surveyContent, .qcContent {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .surveyContent h2, .qcContent h2 {
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .surveyContent ul, .qcContent ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .surveyContent li, .qcContent li {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    background: #f1f1f1;
+    padding: 10px 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 5px;
+  }
+  
+  .qcContent p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    width: 70%;
+    margin: auto;
+  }
+
+  @media (max-width: 1024px) {
+    .surveyTophead {
+      padding: 150px 0;
+      height: 30vh;
+    }
+  
+    .surveyTophead h1 {
+      font-size: 2.5rem;
+    }
+  
+    .surveyContent h2, .qcContent h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .surveyTophead {
+      padding: 150px 0;
+      height: 30vh;
+    }
+  
+    .surveyTophead h1 {
+      font-size: 2rem;
+    }
+  
+    .surveyTophead p {
+      font-size: 1rem;
+      width: 90%;
+    }
+  
+    .surveyContent, .qcContent {
+      width: 95%;
+      padding: 30px 5%;
+    }
+  
+    .surveyContent h2, .qcContent h2 {
+      font-size: 1.5rem;
+    }
+  
+    .surveyContent li, .qcContent li {
+      width: 90%;
+      font-size: 1.3rem;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .surveyTophead {
+      padding: 150px 0;
+      height: 30vh;
+    }
+  
+    .surveyTophead h1 {
+      font-size: 1.8rem;
+    }
+  
+    .surveyTophead p {
+      font-size: 1rem;
+    }
+  
+    .surveyContent h2, .qcContent h2 {
+      font-size: 1.3rem;
+    }
+  
+    .surveyContent li, .qcContent li {
+      width: 100%;
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
+  

@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .servicesPage {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .servicesTophead {
+    width: 100%;
+    height: 40vh;
+    background-color: #50555a;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .servicesTophead h1 {
+    color: #ffc109;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .servicesTophead p {
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .servicesContent {
+    padding: 50px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  }
+  
+  .service {
+    background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service h2 {
+    color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+  }
+
+  .service img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .service button{
+    cursor: pointer;
+    background-color: #343a3f;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 20px ; 
+    align-self: center; /* Ensures alignment */
+  }
+
+  .service button:hover {
+    background-color: #ffc109;
+    color: black;
+    transform: scale(1.05);
+  }
+  
+  .whyChooseUs {
+    padding: 60px;
+    background-color: #ffc109;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .whyChooseUs h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .whyChooseUs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .whyChooseUs li {
+    font-size: 18px;
+    color: #222;
+    margin: 10px 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .whyChooseUs li strong {
+    color: #000;
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .servicesTophead {
+      height: 30vh;
+      padding: 180px 20px;
+    }
+  
+    .servicesTophead p {
+      width: 80%;
+    }
+  
+    .servicesContent {
+      padding: 30px 5%;
+    }
+  
+    .whyChooseUs {
+      padding: 20px 5%;
+    }
+  }
+  
+  

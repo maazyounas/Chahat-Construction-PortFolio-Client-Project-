@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .safetyPage {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .safetyTophead {
+    width: 100%;
+    background-color: #50555a;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .safetyTophead h1 {
+    color: #ffc109;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .safetyTophead p {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .safetyContent, .qcContent {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .safetyContent h2, .qcContent h2 {
+    color: #50555a;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .safetyContent p, .qcContent p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .safetyContent ul, .qcContent ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .safetyContent ul li, .qcContent ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #50555a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .safetyTophead p, .safetyContent, .qcContent {
+      width: 90%;
+    }
+
+    .safetyTophead{
+      padding: 150px 0;
+      height: 35vh;
+    }
+
+    .safetyTophead p{
+      font-size: 18px;
+    }
+
+    .safetyTophead h1{
+      font-size: 35px;
+    }
+
+    .qcContent p , .qcContent ul li {
+      text-align: left;
+    }
+
+  }

@@ -1,0 +1,147 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.constructionWrapper {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.constructionHeader {
+  width: 100%;
+  height: 30vh;
+  background-color: #50555a;
+  text-align: center;
+  padding: 150px ;
+}
+
+.headerTitle {
+  color: #ffc107;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.headerDescription {
+  padding-top: 15px;
+  color: white;
+  font-size: 18px;
+  width: 70%;
+  margin: auto;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 60px 5%;
+}
+
+.serviceCard {
+  width: 30%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.serviceImage {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.serviceTitle {
+  font-size: 24px;
+  color: #333;
+  margin-top: 15px;
+}
+
+.serviceDescription {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.chooseUsSection {
+  padding: 60px;
+    background-color: #ffc109;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chooseUsTitle {
+  color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.chooseUsList {
+  list-style: none;
+  padding: 0;
+}
+
+.chooseUsList li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.chooseUsList strong {
+  color: #333;
+}
+
+@media (max-width: 1024px) {
+  .servicesContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceCard {
+    width: 80%;
+  }
+
+  .headerTitle {
+    font-size: 36px;
+  }
+
+  .headerDescription {
+    font-size: 16px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .constructionHeader {
+    padding: 150px 0px;
+    height: 30vh;
+  }
+
+  .headerTitle {
+    font-size: 28px;
+  }
+
+  .headerDescription {
+    width: 75%;
+    font-size: 16px;
+  }
+
+  .serviceCard {
+    width: 100%;
+  }
+
+  .chooseUsSection{
+    padding: 30px 10px;
+  }
+
+}
